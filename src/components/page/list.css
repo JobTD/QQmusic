@@ -1,0 +1,152 @@
+.list{
+    padding-top:.9rem;
+}
+.listTop{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width:100%;
+    height:.9rem;
+    line-height:.8rem;
+    font-size: .3rem;
+    overflow: hidden;
+    background:#f6f6f6
+}
+.listTop>img{
+    float: left;
+    height:.8rem;
+    width:.8rem;
+    margin: auto 0;
+    margin-left:.4rem;
+    margin-top:.1rem;
+}
+.listTop>p{
+float: left; 
+height: .9rem;
+line-height: 1rem;
+padding-left:.2rem
+}
+.listTop>.listBtn{
+    float: right; 
+    border: .02rem solid #999;
+    width: 1.7rem;
+    height:.5rem;
+    text-align: center;
+    line-height: .5rem;
+    border-radius: .08rem;
+    border-radius: .4rem;
+    margin-top: .28rem;
+    margin-right: .28rem
+}
+.listImgBig{
+    width: 3.4rem;
+    height: 3.4rem;
+    margin: 0 auto;
+    margin-top:.4rem;
+}
+.listImgBig>img{
+    width: 100%;
+    height: 100%;
+    border-radius: .3rem;
+    box-shadow: .1rem .1rem .4rem rgb(117, 117, 117)
+}
+.listTit>h6{
+    line-height: 1.2rem;
+    text-align: center;
+    font-size: .32rem;
+    margin: 0;
+}
+.listTit>h5{
+    text-align: center;
+    font-size: .32rem;
+}
+.listTit>p{
+    text-align: center;
+    font-size: .26rem;
+    color: #999;
+    line-height: .5rem
+}
+.listB{
+    width: 3.6rem;
+    height: .8rem;
+    background:#5ACE75;
+    margin:0 auto;
+    border-radius: .8rem;
+    box-shadow: 0rem 0rem .3rem #5ACE75;
+    margin-bottom: .2rem;
+    text-align: center;
+}
+.listDl{
+    overflow: hidden;
+}
+.listDl>dt{
+    font-size: .26rem;
+    color: #999;
+    padding-left: .3rem;
+    margin-bottom: .2rem
+}
+
+.listDl>dd{
+    display: flex;
+    height: 1rem;
+    margin: .2rem
+}
+.listIndex{
+    width: 1rem;
+}
+.listIndex>h5{
+    margin: 0;
+    text-align: center;
+    color: #999;
+    font-size: .4rem  !important;
+}
+.listDl>dd:nth-child(2)>.listIndex>h5,
+.listDl>dd:nth-child(3)>.listIndex>h5,
+.listDl>dd:nth-child(4)>.listIndex>h5{
+    color: #ff0000;
+}
+.listIndex>p{
+    margin: 0;
+    text-align: center;
+    color: #999;
+    font-size: .26rem;
+    line-height:.4rem
+}
+.listIndex>p>h1{
+    float: left
+}
+.listIndex>p>.listSs{
+    color: #ff0000;
+    font-size: .3rem;
+    float: left;
+}
+.listTit{
+    flex: 1;
+    padding-left:.2rem;
+    overflow: hidden;
+}
+.listTit>h2{
+    font-size: .36rem;
+    margin: 0;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.listTit>h3{
+    font-size: .24rem;
+    margin: 0;
+    color: #999;
+    line-height: .64rem
+}
+.listDown{
+    width: .4rem
+}
+.listDown>.Down{
+    font-size: .4rem;
+    line-height: 1rem;
+}
+.listB>.listBBtn{
+    font-size: .8rem;
+    color: white;
+    line-height:.9rem 
+}

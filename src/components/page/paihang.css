@@ -1,0 +1,56 @@
+
+.paihang{
+    padding:.2rem;
+}
+.paihang>.paihangCard{
+    background: white;
+    width: 100%;
+    height: 2.2rem;
+    margin-bottom: .2rem;
+    display: flex;
+    
+}
+.paihangImg{
+    flex:4;
+    background: #ff0000;
+    position: relative;
+}
+.paihangImg>img{
+    width: 100%;
+    height: 100%;
+}
+.paihangList{
+    flex: 8;
+    background: #fff;
+    padding-right:.16rem;
+    padding-left:.26rem;
+    overflow: hidden;
+
+}
+.paihangList>h6{
+    margin: 0;
+    font-size: .36rem;
+    margin-bottom: .14rem
+}
+.paihangList>p{
+    margin: 0;
+    color:#ccc;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.paihangList>p>span{
+    padding-left: .2rem;
+    color:black;
+}
+.PHI{
+    position: absolute;
+    bottom: .1rem;
+    left:.1rem;
+    color: rgb(197, 197, 197)!important;
+    font-size: .2rem ;
+}
+.PHIcon{
+    font-size: .2rem ;
+    color: rgb(197, 197, 197) !important;
+}

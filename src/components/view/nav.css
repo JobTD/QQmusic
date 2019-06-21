@@ -1,0 +1,52 @@
+.Nav{
+    height: .92rem;
+    display: flex;
+    background:#fff;
+    color: #666666;
+    border:none;
+    font-size: .36rem;
+    color: #666666;
+    box-shadow: .1rem -.1rem .07rem #f0f0f0
+}
+.Nav>a{
+    color: #666666
+}
+.NavLef,.NavRig{
+    flex:5;
+    border-bottom:.04rem solid #fff;
+    text-align: center;
+    line-height: .88rem
+}
+.NavCen{
+    flex:6;
+    border-bottom:.04rem solid #fff;
+    text-align: center;
+    line-height: .88rem
+}
+.Nav .select{
+    color: #4fcb8f;
+    border-bottom:.04rem solid #31c27c;
+}
+.Top{
+    width: 100%;
+    padding: 0 .3rem;
+    padding-top:.5rem;
+    height:1.7rem;
+    overflow: hidden;
+
+}
+.Top>img{
+    float: left;
+    width: 40%;
+    height: .8rem;
+}
+.Top .btn{
+    float:right;
+    width: 25%;
+    text-align: center;
+    line-height: .6rem;
+    height: .6rem;
+    font-weight: 600;
+    border: 1px rgb(158, 154, 154) solid;
+    border-radius: .6rem
+}

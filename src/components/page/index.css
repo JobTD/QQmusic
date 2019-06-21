@@ -1,0 +1,32 @@
+/* .Index>.Box{
+    position: fixed !important;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background:white !important;
+  }
+  .Index>.Bot{
+    position: fixed !important;
+    left: 0;
+    bottom: 0;
+    width: 100%
+  } */
+  .IndexTop{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background:white;
+    z-index: 10;
+  }
+  .IndexBot{
+    position: fixed !important;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: 2;
+  }
+  .Index{
+    padding-top:2.6rem;
+    padding-bottom:1.6rem
+  }
